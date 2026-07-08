@@ -1,0 +1,67 @@
+/* Mengatur ulang margin dasar agar rapi */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Background utama halaman */
+body {
+    background-color: #064E3B; /* Hijau Zamrud Gelap */
+    color: white;
+    display: flex;
+    justify-content: center; /* Memastikan posisi di tengah untuk layar laptop */
+}
+
+/* Pengaturan pembungkus konten (Penting untuk layout adaptif) */
+.container {
+    width: 100%;
+    max-width: 480px; /* Ukuran maksimal menyerupai layar HP */
+    min-height: 100vh;
+    padding: 30px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Desain Header */
+header { margin-bottom: 40px; }
+.logo-placeholder {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    color: #064E3B;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px auto;
+    font-weight: bold;
+}
+h1 { font-size: 1.5rem; line-height: 1.3; }
+
+/* Desain Menu/Tombol */
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Jarak vertikal antar tombol */
+    flex-grow: 1; /* Mendorong footer ke bawah */
+}
+.menu-btn {
+    background: linear-gradient(135deg, #D4AF37, #F3E5AB); /* Gradasi Emas */
+    color: #064E3B; /* Teks hijau gelap */
+    text-decoration: none;
+    padding: 16px 20px;
+    border-radius: 30px; /* Membuat ujung tombol membulat */
+    font-weight: bold;
+    font-size: 1rem;
+    box-shadow: 0 4px 10px rgba(212, 175, 55, 0.3); /* Efek glowing tipis */
+    transition: transform 0.2s; /* Animasi saat diklik */
+}
+.menu-btn:hover {
+    transform: scale(1.05); /* Membesar sedikit saat kursor menyentuh tombol */
+}
+
+/* Desain Footer */
+footer { margin-top: 40px; font-size: 0.9rem; color: #A7F3D0; }
