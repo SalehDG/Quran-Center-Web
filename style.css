@@ -25,21 +25,15 @@ body {
     flex-direction: column;
 }
 
-/* Desain Header */
-header { margin-bottom: 40px; }
-.logo-placeholder {
-    width: 80px;
-    height: 80px;
-    background-color: white;
-    color: #064E3B;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/* Pengaturan Gambar Logo */
+.logo {
+    width: 150px;       /* Lebar logo */
+    height: auto;        /* Agar proporsi gambar terjaga */
+    display: circular; /* Membuat logo berbentuk lingkaran */
     margin: 0 auto 15px auto;
-    font-weight: bold;
+    border-radius: 50%; /* Membuat logo berbentuk lingkaran */
 }
-h1 { font-size: 1.5rem; line-height: 1.3; }
+
 
 /* Desain Menu/Tombol */
 .menu-list {
