@@ -39,6 +39,7 @@ body {
 .menu-list {
     display: flex;
     flex-direction: column;
+    margin-top: 35px;
     gap: 15px; /* Jarak vertikal antar tombol */
     flex-grow: 1; /* Mendorong footer ke bawah */
 }
