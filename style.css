@@ -35,7 +35,7 @@ body {
 }
 
 /* Desain Menu/Tombol */
-.menu-list {
+.menu-list {        
     display: flex;
     flex-direction: column;
     margin-top: 35px;
